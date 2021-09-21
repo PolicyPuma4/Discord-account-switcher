@@ -58,6 +58,7 @@ RefreshTray()
 Menu, Tray, Icon, shell32.dll, 265
 IfNotExist, %A_LocalAppData%\Programs\Discord account switcher
 {
+	FileCreateDir, %A_LocalAppData%\Programs\Discord account switcher\Account 1
 	FileCreateDir, %A_LocalAppData%\Programs\Discord account switcher\Account 2
 	FileAppend, Account 1, %A_LocalAppData%\Programs\Discord account switcher\Active account.txt
 }
