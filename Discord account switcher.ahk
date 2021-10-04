@@ -55,7 +55,7 @@ RefreshTray()
 }
 
 
-Menu, Tray, Icon, %A_LocalAppData%\Discord\app-1.0.9003\Discord.exe
+Menu, Tray, Icon, %A_LocalAppData%\Discord\app.ico
 IfNotExist, %A_LocalAppData%\Programs\Discord account switcher
 {
 	FileCreateDir, %A_LocalAppData%\Programs\Discord account switcher\Account 1
