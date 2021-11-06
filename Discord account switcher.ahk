@@ -1,4 +1,4 @@
-; Made by https://github.com/PolicyPuma4/Discord-account-switcher
+; Made by https://github.com/PolicyPuma4
 ; Repository https://github.com/PolicyPuma4/Discord-account-switcher
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
